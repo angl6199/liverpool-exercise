@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS-1: Liverpool sales]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC-1: Validate Product Price(failed)">
+    <classes>
+      <class name="interviewExercise.liverpool.TestCase1">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="closeRegionPopUp"/>
+        </methods>
+      </class> <!-- interviewExercise.liverpool.TestCase1 -->
+    </classes>
+  </test> <!-- TC-1: Validate Product Price(failed) -->
+  <test thread-count="5" name="TC-2: Validate Login Redirect after confirming order(failed)">
+    <classes>
+      <class name="interviewExercise.liverpool.TestCase2">
+        <methods>
+          <include name="closeRegionPopUp"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- interviewExercise.liverpool.TestCase2 -->
+    </classes>
+  </test> <!-- TC-2: Validate Login Redirect after confirming order(failed) -->
+  <test thread-count="5" name="TC-3: Validate Empty Message when deleting unique product(failed)">
+    <classes>
+      <class name="interviewExercise.liverpool.TestCase3">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="closeRegionPopUp"/>
+        </methods>
+      </class> <!-- interviewExercise.liverpool.TestCase3 -->
+    </classes>
+  </test> <!-- TC-3: Validate Empty Message when deleting unique product(failed) -->
+</suite> <!-- Failed suite [TS-1: Liverpool sales] -->

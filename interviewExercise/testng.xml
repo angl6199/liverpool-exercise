@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TS-1: Liverpool sales">
+
+	<test name="TC-1: Validate Product Price">
+
+		<classes>
+
+			<class name="interviewExercise.liverpool.TestCase1" />
+			
+		</classes>
+
+	</test>
+	
+	<test name="TC-2: Validate Login Redirect after confirming order">
+	
+		<classes>
+
+			<class name="interviewExercise.liverpool.TestCase2" />
+			
+		</classes>
+	
+	</test>
+	
+	<test name="TC-3: Validate Empty Message when deleting unique product">
+	
+		<classes>
+
+			<class name="interviewExercise.liverpool.TestCase3" />
+			
+		</classes>
+	
+	</test>
+
+</suite>
